@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#temperature-display {
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    line-height: 160px;
+    border: 10px solid;
+}
+
+.temperature-normal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.temperature-high {
+    background-color: rgb(255, 85, 85);
+    color: white;
+}
